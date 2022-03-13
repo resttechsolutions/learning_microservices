@@ -29,5 +29,7 @@ public class Product implements Serializable {
     @Temporal(TemporalType.DATE)
     private Date createAt;
 
+    @Transient
+    private Integer port;
 
 }
